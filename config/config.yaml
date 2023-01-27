@@ -1,0 +1,7 @@
+move_base_goals_topic: "/move_base_simple/goal"
+initial_pose_topic: "initialpose"
+move_base_status_topic: "/move_base/status"
+odom_topic: "/odometry/filtered"
+queue_size: 1
+move_base_frame: "/map"
+header_frame_id: "odom"

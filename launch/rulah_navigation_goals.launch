@@ -1,0 +1,9 @@
+<launch>
+
+	<param name ="/use_sim_time" value="true"/>
+
+	<node pkg="rulah_navigation_goals" type="rulah_navigation_goals" name="rulah_navigation_goals" output="screen">
+		<rosparam command="load" file="$(find rulah_navigation_goals)/config/config.yaml"/>
+	</node>
+
+</launch>
